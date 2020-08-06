@@ -11,232 +11,268 @@
 -->
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="shortcut icon" type="image/png" href="./assets/favicon.png" />
 
-    <!-- Put here your site title -->
-    <title>Nikola Novakovic | Web Developer</title>
-    <!-- Add some coding keywords below, Ex: (javascript, yourusername, etc) -->
-    <meta name="keywords" content="[username], [name], skill" />
-    <!-- Improve your SEO by adding a small descrption of you -->
-    <meta name="description" content="[Your name here] | Developer" />
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="shortcut icon" type="image/png" href="./assets/favicon.png" />
 
-    <!-- Required librarys -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
-    <script src="https://unpkg.com/scrollreveal"></script>
-    <script>
-      ScrollReveal({ reset: false });
-    </script>
+  <!-- Put here your site title -->
+  <title>Nikola Novakovic | Web Developer</title>
+  <!-- Add some coding keywords below, Ex: (javascript, yourusername, etc) -->
+  <meta name="keywords" content="[username], [name], skill" />
+  <!-- Improve your SEO by adding a small descrption of you -->
+  <meta name="description" content="[Your name here] | Developer" />
 
-    <!-- Remove this script once you setup your custom portfolio -->
-    <script async defer src="https://buttons.github.io/buttons.js"></script>
-  </head>
+  <!-- Required librarys -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <script>
+    ScrollReveal({ reset: false });
+  </script>
 
-  <!-- Follow the HTML instructions to create your stunning portfolio website -->
-  <body>
-    <div id="top"></div>
+  <!-- Remove this script once you setup your custom portfolio -->
+  <script async defer src="https://buttons.github.io/buttons.js"></script>
+</head>
 
-    <!-- **** Hero Section **** -->
-    <div id="hero" class="jumbotron">
-      <div class="container">
-        <h1 class="hero-title" class="load-hidden">
-          Hi, my name is <span class="text-color-main">Nikola Novaković</span>
-          <br />
-          I'm the Developer you need.
-        </h1>
-        <p class="hero-cta" class="load-hidden">
-          <a class="cta-btn cta-btn--hero" href="#about">Know more</a>
-        </p>
+<!-- Follow the HTML instructions to create your stunning portfolio website -->
+
+<body>
+  <div id="top"></div>
+
+  <!-- **** Hero Section **** -->
+  <div id="hero" class="jumbotron">
+    <div class="container">
+      <h1 class="hero-title" class="load-hidden">
+        Hi, my name is <span class="text-color-main">Nikola Novaković</span>
+        <br />
+        I'm the Developer you need.
+      </h1>
+      <p class="hero-cta" class="load-hidden">
+        <a class="cta-btn cta-btn--hero" href="#about">Know more</a>
+      </p>
+    </div>
+  </div>
+  <!-- /END Hero Section -->
+
+  <!-- **** About Section **** -->
+  <section id="about">
+    <div class="container">
+      <h2 class="section-title">
+        About me
+      </h2>
+      <div class="row about-wrapper">
+        <div class="col-md-6 col-sm-12">
+          <div class="about-wrapper__image">
+            <img class="img-fluid rounded shadow-lg" height="auto" width="300px" src="./assets/profile.png"
+              alt="Profile Image" />
+          </div>
+        </div>
+        <div class="col-md-6 col-sm-12">
+          <div class="about-wrapper__info">
+            <p class="about-wrapper__info-text">
+              Experienced web engineer with 5+ years of experience in web site translation. Through this period I had a
+              chance to work on big projects with some of the most notable clients like Citrix, Delta Airlines, UPS,
+              Hilton, and Virgin Atlantic.
+            </p>
+            <p class="about-wrapper__info-text">
+              I'm also passionate about full-stack web development. I'm a self-learner and although without practical
+              experience, I'm getting more skills and upgrade myself constantly. You can find some of my private
+              projects below.
+            </p>
+            <span class="d-flex mt-3">
+              <a target="_blank" class="cta-btn cta-btn--resume"
+                href="https://drive.google.com/file/d/16cj6fgqzRVu4s0t5ZoCHz80Na5oSVruI/view?usp=sharing">
+                View Resume
+              </a>
+            </span>
+          </div>
+        </div>
       </div>
     </div>
-    <!-- /END Hero Section -->
+  </section>
+  <!-- /END About Section -->
 
-    <!-- **** About Section **** -->
-    <section id="about">
-      <div class="container">
-        <h2 class="section-title">
-          About me
+  <!-- **** Projects Section **** -->
+  <section id="projects">
+    <div class="container">
+      <div class="project-wrapper">
+        <h2 class="section-title dark-blue-text">
+          Projects
         </h2>
-        <div class="row about-wrapper">
-          <div class="col-md-6 col-sm-12">
-            <div class="about-wrapper__image">
-              <img
-                class="img-fluid rounded shadow-lg"
-                height="auto"
-                width="300px"
-                src="./assets/profile.png"
-                alt="Profile Image"
-              />
+
+        <!-- Each .row is a project -->
+        <div class="row">
+          <div class="col-lg-4 col-sm-12">
+            <div class="project-wrapper__text">
+              <h3 class="project-wrapper__text-title">Background generator</h3>
+              <div>
+                <p class="mb-4">
+                  Linear gradient background color generator based on JavaScript DOM manipulation concept. Great for
+                  quick pick when you need a linear gradient background for your application. Technologies used: HTML5,
+                  CSS3 and Vanilla JavaScript.
+                </p>
+              </div>
+              <a target="_blank" class="cta-btn cta-btn--hero"
+                href="https://nikola-nova.github.io/background-generator/">
+                See Live
+              </a>
+              <a target="_blank" class="cta-btn text-color-main"
+                href="https://github.com/Nikola-nova/background-generator">
+                Source Code
+              </a>
             </div>
           </div>
-          <div class="col-md-6 col-sm-12">
-            <div class="about-wrapper__info">
-              <p class="about-wrapper__info-text">
-                Experienced web engineer with 5+ years of experience in web site translation. Through this period I had a chance to work on big projects with some of the most notable clients like Citrix, Delta Airlines, UPS, Hilton, and Virgin Atlantic.
-              </p>
-              <p class="about-wrapper__info-text">
-                I'm also passionate about full-stack web development. I'm a self-learner and although without practical experience, I'm getting more skills and upgrade myself constantly. You can find some of my private projects below.
-              </p>
-              <span class="d-flex mt-3">
-                <a target="_blank" class="cta-btn cta-btn--resume" href="https://drive.google.com/file/d/16cj6fgqzRVu4s0t5ZoCHz80Na5oSVruI/view?usp=sharing">
-                  View Resume
-                </a>
-              </span>
+          <div class="col-lg-8 col-sm-12">
+            <div class="project-wrapper__image">
+              <a href="#!" target="_blank">
+                <div data-tilt class="thumbnail rounded">
+                  <img class="img-fluid" src="./assets/background_generator.png" />
+                </div>
+              </a>
             </div>
           </div>
         </div>
-      </div>
-    </section>
-    <!-- /END About Section -->
+        <!-- /END Project -->
 
-    <!-- **** Projects Section **** -->
-    <section id="projects">
-      <div class="container">
-        <div class="project-wrapper">
-          <h2 class="section-title dark-blue-text">
-            Projects
-          </h2>
-
-          <!-- Each .row is a project -->
-          <div class="row">
-            <div class="col-lg-4 col-sm-12">
-              <div class="project-wrapper__text">
-                <h3 class="project-wrapper__text-title">Background generator</h3>
-                <div>
-                  <p class="mb-4">
-                    Linear gradient background color generator based on JavaScript DOM manipulation concept. Great for quick pick when you need a linear gradient background for your application. Technologies used: HTML5, CSS3 and Vanilla JavaScript.
-                  </p>
-                </div>
-                <a target="_blank" class="cta-btn cta-btn--hero" href="https://nikola-nova.github.io/background-generator/">
-                  See Live
-                </a>
-                <a target="_blank" class="cta-btn text-color-main" href="https://github.com/Nikola-nova/background-generator">
-                  Source Code
-                </a>
+        <!-- Each .row is a project -->
+        <div class="row">
+          <div class="col-lg-4 col-sm-12">
+            <div class="project-wrapper__text">
+              <h3 class="project-wrapper__text-title">RoboFriends</h3>
+              <div>
+                <p class="mb-4">
+                  RoboFriends is a React app that lets you search between different API generated robots by name. It's
+                  fully responsive and functional in different screen sizes. I created it as a test project during one
+                  of my React courses. Technologies used: CSS3 and React.
+                </p>
               </div>
-            </div>
-            <div class="col-lg-8 col-sm-12">
-              <div class="project-wrapper__image">
-                <a href="#!" target="_blank">
-                  <div data-tilt class="thumbnail rounded">
-                    <img class="img-fluid" src="./assets/background_generator.png" />
-                  </div>
-                </a>
-              </div>
+              <a target="_blank" class="cta-btn cta-btn--hero" href="https://nikola-nova.github.io/robofriends/">
+                See Live
+              </a>
+              <a target="_blank" class="cta-btn text-color-main" href="https://github.com/Nikola-nova/robofriends">
+                Source Code
+              </a>
             </div>
           </div>
-          <!-- /END Project -->
-
-          <!-- Each .row is a project -->
-          <div class="row">
-            <div class="col-lg-4 col-sm-12">
-              <div class="project-wrapper__text">
-                <h3 class="project-wrapper__text-title">RoboFriends</h3>
-                <div>
-                  <p class="mb-4">
-                    RoboFriends is a React app that lets you search between different API generated robots by name. It's fully responsive and functional in different screen sizes. I created it as a test project during one of my React courses. Technologies used: CSS3 and React.
-                  </p>
+          <div class="col-lg-8 col-sm-12">
+            <div class="project-wrapper__image">
+              <a href="#!" target="_blank">
+                <div data-tilt class="thumbnail rounded">
+                  <img class="img-fluid" src="./assets/robofriends.png" />
                 </div>
-                <a target="_blank" class="cta-btn cta-btn--hero" href="https://nikola-nova.github.io/robofriends/">
-                  See Live
-                </a>
-                <a target="_blank" class="cta-btn text-color-main" href="https://github.com/Nikola-nova/robofriends">
-                  Source Code
-                </a>
-              </div>
-            </div>
-            <div class="col-lg-8 col-sm-12">
-              <div class="project-wrapper__image">
-                <a href="#!" target="_blank">
-                  <div data-tilt class="thumbnail rounded">
-                    <img class="img-fluid" src="./assets/robofriends.png" />
-                  </div>
-                </a>
-              </div>
+              </a>
             </div>
           </div>
-          <!-- /END Project -->
-
-          <!-- Each .row is a project -->
-          <div class="row">
-            <div class="col-lg-4 col-sm-12">
-              <div class="project-wrapper__text">
-                <h3 class="project-wrapper__text-title">Smart Brain</h3>
-                <div>
-                  <p class="mb-4">
-                    Smart Brain is a full-stack app that recognizes faces on random uploaded images by users. It also allows you to create an account, log in and rank you among other users based on a number of images you uploaded. Technologies used: React (Front-End), Node/Express (Back-End), PostgreSQL (Database).
-                  </p>
-                </div>
-                <a target="_blank" class="cta-btn cta-btn--hero" href="https://full-stack-smart-brain-app.herokuapp.com/">
-                  See Live
-                </a>
-                <a target="_blank" class="cta-btn text-color-main" href="https://github.com/Nikola-nova/smart-brain-front-end">
-                  Source Code
-                </a>
-              </div>
-            </div>
-            <div class="col-lg-8 col-sm-12">
-              <div class="project-wrapper__image">
-                <a href="#!" target="_blank">
-                  <div data-tilt class="thumbnail rounded">
-                    <img class="img-fluid" src="./assets/smart_brain.png" />
-                  </div>
-                </a>
-              </div>
-            </div>
-          </div>
-          <!-- /END Project -->
         </div>
-      </div>
-    </section>
-    <!-- /END Projects Section -->
+        <!-- /END Project -->
 
-    <!-- **** Contact Section **** -->
-    <section id="contact">
-      <div class="container">
-        <h2 class="section-title">
-          Contact
-        </h2>
-        <div class="contact-wrapper">
-          <p class="contact-wrapper__text">
-            If you wish to contact me directly, click the button below.
-          </p>
-          <a
-            target="_blank"
-            class="cta-btn cta-btn--resume"
-            href="mailto:nikola.novakovic1985@gmail.com"
-            >Contact Me</a
-          >
+        <!-- Each .row is a project -->
+        <div class="row">
+          <div class="col-lg-4 col-sm-12">
+            <div class="project-wrapper__text">
+              <h3 class="project-wrapper__text-title">Smart Brain</h3>
+              <div>
+                <p class="mb-4">
+                  Smart Brain is a full-stack app that recognizes faces on random uploaded images by users. It also
+                  allows you to create an account, log in and rank you among other users based on a number of images you
+                  uploaded. Technologies used: React (Front-End), Node/Express (Back-End), PostgreSQL (Database).
+                </p>
+              </div>
+              <a target="_blank" class="cta-btn cta-btn--hero" href="https://full-stack-smart-brain-app.herokuapp.com/">
+                See Live
+              </a>
+              <a target="_blank" class="cta-btn text-color-main"
+                href="https://github.com/Nikola-nova/smart-brain-front-end">
+                Source Code
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-8 col-sm-12">
+            <div class="project-wrapper__image">
+              <a href="#!" target="_blank">
+                <div data-tilt class="thumbnail rounded">
+                  <img class="img-fluid" src="./assets/smart_brain.png" />
+                </div>
+              </a>
+            </div>
+          </div>
         </div>
-      </div>
-    </section>
-    <!-- /END Contact Section -->
+        <!-- /END Project -->
 
-    <!-- **** Footer Section **** -->
-    <footer class="footer navbar-static-bottom">
-      <div class="container">
-        <a href="#top" class="back-to-top">
-          <i class="fa fa-angle-up fa-2x" aria-hidden="true"></i>
+        <!-- Each .row is a project -->
+        <div class="row">
+          <div class="col-lg-4 col-sm-12">
+            <div class="project-wrapper__text">
+              <h3 class="project-wrapper__text-title">YelpCamp</h3>
+              <div>
+                <p class="mb-4">
+                  YelpCamp is a NodeJS application project that allows you to register and create your favorite
+                  campgrounds as well as add your own experience that would help other people. Technologies used: HTML5,
+                  CSS3, JavaScript, Bootstrap4, jQuery, NodeJS, ExpressJS, MongoDB.
+                </p>
+              </div>
+              <a target="_blank" class="cta-btn cta-btn--hero" href="https://yelp-camp-nikola-nova.herokuapp.com/">
+                See Live
+              </a>
+              <a target="_blank" class="cta-btn text-color-main" href="https://github.com/Nikola-nova/yelpcamp_2020">
+                Source Code
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-8 col-sm-12">
+            <div class="project-wrapper__image">
+              <a href="#!" target="_blank">
+                <div data-tilt class="thumbnail rounded">
+                  <img class="img-fluid" src="./assets/yelp_camp.png" />
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+        <!-- /END Project -->
+      </div>
+    </div>
+  </section>
+  <!-- /END Projects Section -->
+
+  <!-- **** Contact Section **** -->
+  <section id="contact">
+    <div class="container">
+      <h2 class="section-title">
+        Contact
+      </h2>
+      <div class="contact-wrapper">
+        <p class="contact-wrapper__text">
+          If you wish to contact me directly, click the button below.
+        </p>
+        <a target="_blank" class="cta-btn cta-btn--resume" href="mailto:nikola.novakovic1985@gmail.com">Contact Me</a>
+      </div>
+    </div>
+  </section>
+  <!-- /END Contact Section -->
+
+  <!-- **** Footer Section **** -->
+  <footer class="footer navbar-static-bottom">
+    <div class="container">
+      <a href="#top" class="back-to-top">
+        <i class="fa fa-angle-up fa-2x" aria-hidden="true"></i>
+      </a>
+      <div class="social-links">
+        <a href="https://www.linkedin.com/in/nikola-novaković-a3ab2998" target="_blank">
+          <i class="fa fa-linkedin fa-inverse"></i>
         </a>
-        <div class="social-links">
-          <a href="https://www.linkedin.com/in/nikola-novaković-a3ab2998" target="_blank">
-            <i class="fa fa-linkedin fa-inverse"></i>
-          </a>
-          <a href="https://github.com/Nikola-nova" target="_blank">
-            <i class="fa fa-github fa-inverse"></i>
-          </a>
-        </div>
-
-        <hr />
-
+        <a href="https://github.com/Nikola-nova" target="_blank">
+          <i class="fa fa-github fa-inverse"></i>
+        </a>
       </div>
-    </footer>
-    <!-- /END Footer Section -->
-  </body>
+
+      <hr />
+
+    </div>
+  </footer>
+  <!-- /END Footer Section -->
+</body>
+
 </html>
