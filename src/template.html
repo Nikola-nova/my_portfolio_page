@@ -47,7 +47,7 @@
       <h1 class="hero-title" class="load-hidden">
         Hi, my name is <span class="text-color-main">Nikola Novaković</span>
         <br />
-        I'm the Developer you need.
+        <p id="hero-main">I'm a NodeJS Developer passionate about technology and world-class web applications.</p>
       </h1>
       <p class="hero-cta" class="load-hidden">
         <a class="cta-btn cta-btn--hero" href="#about">Know more</a>
@@ -77,9 +77,7 @@
               Hilton, and Virgin Atlantic.
             </p>
             <p class="about-wrapper__info-text">
-              I'm also passionate about full-stack web development. I'm a self-learner and although without practical
-              experience, I'm getting more skills and upgrade myself constantly. You can find some of my private
-              projects below.
+              I'm also passionate about back-end web development using NodeJS. I'm a self-learner, and although without practical experience, I'm getting more skills and upgrade myself constantly. You can find some of my private projects below.
             </p>
             <span class="d-flex mt-3">
               <a target="_blank" class="cta-btn cta-btn--resume"
@@ -106,20 +104,18 @@
         <div class="row">
           <div class="col-lg-4 col-sm-12">
             <div class="project-wrapper__text">
-              <h3 class="project-wrapper__text-title">Background generator</h3>
+              <h3 class="project-wrapper__text-title">Weather application</h3>
               <div>
                 <p class="mb-4">
-                  Linear gradient background color generator based on JavaScript DOM manipulation concept. Great for
-                  quick pick when you need a linear gradient background for your application. Technologies used: HTML5,
-                  CSS3 and Vanilla JavaScript.
+                  Simple weather forecast application, written in NodeJS using Express library and Mapbox API for detecting your current location. Data is pulled from Weatherstack API, providing you with the latest updates for your area.
                 </p>
               </div>
               <a target="_blank" class="cta-btn cta-btn--hero"
-                href="https://nikola-nova.github.io/background-generator/">
+                href="https://nnovakovic-weather-application.herokuapp.com/">
                 See Live
               </a>
               <a target="_blank" class="cta-btn text-color-main"
-                href="https://github.com/Nikola-nova/background-generator">
+                href="https://github.com/Nikola-nova/node3-weather-website">
                 Source Code
               </a>
             </div>
@@ -128,7 +124,39 @@
             <div class="project-wrapper__image">
               <a href="#!" target="_blank">
                 <div data-tilt class="thumbnail rounded">
-                  <img class="img-fluid" src="./assets/background_generator.png" />
+                  <img class="img-fluid" src="./assets/weather_app.png" />
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+        <!-- /END Project -->
+
+        <!-- Each .row is a project -->
+        <div class="row">
+          <div class="col-lg-4 col-sm-12">
+            <div class="project-wrapper__text">
+              <h3 class="project-wrapper__text-title">Chat application</h3>
+              <div>
+                <p class="mb-4">
+                  Real-time chat application completely written in NodeJS using Express framework and Socket.io library. It allows you to choose your username and room that you would like to join and that's it! You can start chatting with your friends, family, co-workers, etc.
+                </p>
+              </div>
+              <a target="_blank" class="cta-btn cta-btn--hero"
+                href="https://nnovakovic-node-v3-chat-app.herokuapp.com/">
+                See Live
+              </a>
+              <a target="_blank" class="cta-btn text-color-main"
+                href="https://github.com/Nikola-nova/node-v3-chat-app">
+                Source Code
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-8 col-sm-12">
+            <div class="project-wrapper__image">
+              <a href="#!" target="_blank">
+                <div data-tilt class="thumbnail rounded">
+                  <img class="img-fluid" src="./assets/chat_app.png" />
                 </div>
               </a>
             </div>
